@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(max-width:750px)" href="responsive.css">
+
+    <script src="https://kit.fontawesome.com/4604a2fde6.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header-container column center ">
+            <div class="header1 row center">
+                
+                <div class="header-content01 row ">
+                    <div class="header-items img1" >
+                     </div>
+                    <div class="header-items img2 column center"  >
+                    <img src="Images/Header01/pikachu.png" id="pikachu" class="animate__animated bounce" alt="pickachu">
+                </div>
+                <div class="header-items img3 column center" >
+                <img src="Images/Header01/about-us.png"  id="about-us" class="animate__animated bounce" alt="pickachu">
+                </div>
+                <div class="header-items arrow-container column center">
+                    <button onclick="showLongTab()"><div class="arrow">></div></button>
+                </div>
+                </div>
+                <div class="long-image row ">
+                    <div class="header-items img4 column center">
+                    <img src="Images/Header01/pokemon-big.png" class="opacity"alt="big_pickachu">
+                </div>
+                <div class="header-items img5 column center">
+                    <img src="Images/Header01/pokemon-z-a-176x50-en.png" class="opacity"alt="big_pickachu">
+                </div>
+                <div class="header-items img6 column center">
+                    <img src="Images/Header01/community-forums-175x50-en.png" class="opacity"alt="big_pickachu">
+                </div>
+               
+                </div>
+            </div><!--header-container item one-->
+            <div class="header02 row center">
+                 <div class="icon-menu column center">
+                    <button onclick="showMenuLink()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+                 <!--start new div-->
+                 <div class="menu-items row center">
+                <div class="header02-items h2-img1 column center ">
+                     <div class="rabbit-logo column center">
+                        <img src="Images/Header02-icons/rabbit.png" alt="">
+                    </div>
+                    <div class="title">Home</div>
+                 </div>
+                
+                <div class="header02-items border-red ">
+                   <div class="pokiball item column center">
+                     <div class="poki-ball bg-size02 rotation "></div>
+                    <div class="title">Pokedex</div>
+                </div>
+                </div>
+
+                <div class="header02-items border-orange column center">
+                    <div class="videogame item column center">
+                        <div class="game-pad  bg-size02 rotation"></div>
+                    <div class="title">video games</div>
+                    </div>
+                </div>
+
+                <div class="header02-items border-light-orange ">
+                   <div class="trading-item  item column center">
+                     <div class="trading-card bg-size bg-size02 rotation"></div>
+                    <div class="title">Trading Card Game</div>
+                   </div>
+                </div>
+
+                <div class="header02-items border-green column center">
+                    <div class="animation-item  item column center">
+                    <div class="animation bg-size bg-size02 rotation"></div>
+                    <div class="title">Animation</div>
+                    </div>
+                </div>
+
+                <div class="header02-items border-blue column center">
+                    <div class="cup-item  item column center">
+                    <div class="cup bg-size bg-size02 rotation"></div>
+                    <div class="title">Play Pokemon</div>
+                    </div>
+                </div>
+
+                <div class="header02-items border-dark-blue column center">
+                    <div class="news-paper-item item  item column center">
+                    <div class="news-paper bg-size bg-size02 rotation"></div>
+                    <div class="title">News</div>
+                    </div>
+                </div>
+                </div><!--new div-->
+
+                 <div class="icon-address column center">
+                    <button class="button">
+                     <i class="fa-regular fa-address-card "></i>
+                    </button>
+                    <div class="login">Log-in</div>
+                </div>
+            </div><!--header-container item two-->
+        </div><!--header-container item two-->
+
+        <div class="main-section  row">
+            <div class="section01 column">
+            <div class="itemOne column">
+               <img src="Images/Main-section/large_imgage.png" alt="not found">
+              <div class="description column">
+                <div class="one">
+                   <h2>The Hottest Card from <i>Mega</i> <i>Evolution - Phantasmal Flames</i></h2> 
+                </div>
+                <div class="two">
+                   <h3>Xander Pero breaks down the cards most likey to spark a new flame in the Standard format</h3>
+                </div>
+              </div>
+            </div>
+            <div class="row second-section">
+                <div class="column-1 column">
+                    <img src="Images/Main-section/row-1.png" alt="not found">
+                    <div class="description">
+                        <h2>Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</h2>
+                    </div>
+                </div>
+                <div class="column-2 column">
+                    <img src="Images/Main-section/row-2.png" alt="not found">
+                    <div class="description">
+                        <h2>Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</h2>
+                    </div>
+                </div>
+            </div>
+            </div> <!--section one end-->
+
+            <div class="section02 column">
+                <div class="itemOne">
+                    <img src="Images/Main-section/column-01.png" alt="not found">
+                    <div class="description">
+                        <p>Pokemon TCG Pocket Mega Pridgeot ex Drop Event</p>
+                    </div>
+                </div>
+                <div class="itemTwo">
+                    <img src="Images/Main-section02/03.png" alt="not found">
+                    <div class="description">
+                        <p>Pokemon TCG Pocket Mega Pridgeot ex Drop Event</p>
+                    </div>
+                </div>
+                <div class="itemThree column">
+                    <div class="description">
+                        <p>Pokemon TCG Pocket Mega Pridgeot ex Drop Event</p>
+                    </div>
+                     <img src="Images/Main-section02/07.png" alt="not found">
+                     
+                </div>
+            
+            </div>
+        </div>
+        <!--code be edited here-->
+
+         <div class="slider-section row">
+            <div class="row">
+                <div class="box-item itmes1 column">
+                     <div class="pickachu-02">
+                        <img src="Images/pikachus/Squirtle.png" alt="not found">
+                     </div>
+                     <div class="details column">
+                        <div class="row">
+                            <p class="poki-name">Squirtle</p>
+                            <p class="poki-number">7</p>
+                        </div>
+                         <div class="row">
+                            <p class=" type">Type</p>
+                            <p class="water form">Water</p>
+                        </div>
+                         <div class=" row">
+                            <p class="ability">Abillity</p>
+                            <p class="power">Torrent</p>
+                        </div>
+            
+                     </div><!--details end-->
+                </div><!--item end-->
+                
+                <div class="box-item itmes2 column">
+                     <div class="pickachu-02">
+                        <img src="Images/pikachus/Golem.png" alt="not found">
+                     </div>
+                     <div class="details column">
+                        <div class=" row">
+                            <p class="poki-name">Golem</p>
+                            <p class="poki-number">76</p>
+                        </div>
+                         <div class=" row">
+                            <p class=" type">Type</p>
+                            <p class="rock form">Rock</p>
+                        </div>
+                         <div class=" row">
+                            <p class="ability">Abillity</p>
+                            <p class="power">Rock Head/ Sturdy</p>
+                        </div>
+            
+                     </div><!--details end-->
+                </div><!--item end-->
+
+                <div class="box-item itmes3 column">
+                     <div class="pickachu-02">
+                        <img src="Images/pikachus/Torchic.png" alt="not found">
+                     </div>
+                     <div class="details column">
+                        <div class="row">
+                            <p class="poki-name">Torchic</p>
+                            <p class="poki-number">255</p>
+                        </div>
+                         <div class="detail row">
+                            <p class=" type">Type</p>
+                            <p class="fire form">fire</p>
+                        </div>
+                         <div class="row">
+                            <p class="ability">Abillity</p>
+                            <p class="power">Blaze</p>
+                        </div>
+            
+                     </div><!--details end-->
+                </div><!--item end-->
+
+                <div class="box-item itmes4 column">
+                     <div class="pickachu-02">
+                        <img src="Images/pikachus/pumkaboo.png" alt="not found">
+                     </div>
+                     <div class="details column">
+                        <div class="row">
+                            <p class="poki-name">pumkaboo</p>
+                            <p class="poki-number">710</p>
+                        </div>
+                         <div class="row">
+                            <p class=" type">Type</p>
+                            <p class="orange form">Ghost</p>
+                        </div>
+                         <div class="row">
+                            <p class="ability">Abillity</p>
+                            <p class="power">Pickup/Frisk</p>
+                        </div>
+            
+                     </div><!--details end-->
+                </div><!--item end-->
+
+                <div class="box-item itmes5 column">
+                     <div class="pickachu-02">
+                        <img src="Images/pikachus/Iron-Valiant.png" alt="not found">
+                     </div>
+                     <div class="details column">
+                        <div class="detail row">
+                            <p class="poki-name">Iron Valiant</p>
+                            <p class="poki-number">1006</p>
+                        </div>
+                         <div class="detail row">
+                            <p class=" type">Type</p>
+                            <p class="fighting form">fightinhg</p>
+                        </div>
+                         <div class="detail row">
+                            <p class="ability">Abillity</p>
+                            <p class="power">Quark Drive</p>
+                        </div>
+            
+                     </div><!--details end-->
+                </div><!--item end-->
+           
+           
+            </div><!--end row-->
+
+         </div><!--end slider section-->
+
+        <!--end of code-->
+         <div class="main02 row">
+
+<div class="main2-section01 column">
+
+     <div class="box1 box">
+     <img src="Images/Main-section02/01.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+     <div class="box2 box">
+     <img src="Images/Main-section02/02.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+     <div class="box3 box">
+     <img src="Images/Main-section02/03.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+     <div class="viewMore v1 box column center">
+     <div class="text"> View More </div>
+     </div><!--box end-->
+
+  </div><!--section end-->
+
+  <div class="main2-section02 column">
+    
+     <div class="box4 box">
+     <img src="Images/Main-section02/05.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+
+     <div class="box6 box">
+        <div class="text">
+           <p>Whats New</p>
+           <p>In This Week</p>
+        </div>
+     </div><!--box end-->
+
+     <div class="box5 box">
+     <img src="Images/Main-section02/04.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+     <div class="box7 box">
+     <img src="Images/Main-section02/06.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+
+  </div><!--section end-->
+
+  <div class="main2-section03 column">
+    
+     <div class="box8 box">
+     <img src="Images/Main-section02/08.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+     <div class="box9 box">
+     <img src="Images/Main-section02/07.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+     <div class="box10 box">
+     <img src="Images/Main-section/row-1.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+
+    <div class="viewMore v-2 box column center">
+     <div class="text"> View More </div>  
+     </div><!--box end-->
+     
+
+  </div><!--section end-->
+        </div><!--end of main row-->
+
+        <div class="end-section column">
+       <div class="end-section01 row">
+     <div class="item1 login-section column">
+        <h3>Signup for Pokemon Email!</h3>
+
+        <input type="text" class="login" placeholder="Email">
+
+        <div class="row">
+
+            <div class="select">
+               <select name="country" id="country">
+                <option value="Pakistan selected">Pakistan</option>
+                <option value="Pakistan">England</option>
+                <option value="Pakistan">America</option>
+               </select>
+            </div>
+
+            <div class="date">
+                <input type="date" class="date">
+            </div>
+
+        </div><!--row end-->
+        <button class="login-btn">SIGN UP</button>
+     </div>
+    <div class="item2 checkbox-section column">
+     
+        <div class="checkHeader column">
+        <p>I’d like to receive emails about:</p>
+       </div>
+
+       <div class="labels column">
+        <div class="labelOne label">
+        <input type="checkbox" id="option01" name="term" value="Bike">
+       <label for="option01">Pokémon video games, apps, and more</label><br>
+       </div>
+
+       <div class="labelTwo label">
+        <input type="checkbox" id="option02" name="term" value="Car">
+        <label for="option02">Pokémon Center (our official online shop)</label><br>
+       </div>
+
+        <div class="labelThree label">
+            <input type="checkbox" id="option03" name="term" value="Boat">
+            <label for="option03">I accept the Pokemon.com Terms of Use and Privacy Notice</label>
+        </div>
+       </div>
+    </div>
+   </div><!--end section one-->
+
+   <div class="end-section02 row">
+    <div class="list-section item1 column center">
+        <div class="listheader">
+            <h4>The Pokemon Company</h4>
+        </div>
+        <div class="list">
+            <ul>
+                <li>News</li>
+                <li>Parent Guide</li>
+                <li>Customer Service</li>
+                <li>About Our Company</li>
+                <li>Careers</li>
+                <li>Select a Country/Region</li>
+                <li>Press Site</li>
+            </ul>
+        </div>
+    </div>
+    <div class="social-section item2 column">
+        <div class="social-icon row">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-square-pinterest"></i>
+        </div>
+    </div>
+    <div class="term-section item3 column">
+       <div class="term column">
+         <div class="term-image column">
+            <div class="caru">Caru &copy; </div>
+        </div>
+        <div class="term-list">
+            <ul>
+                <li>Term of use</li>
+                <li>Privacy Notice</li>
+                <li>Cookies page</li>
+                <li>legal info</li>
+                <li>Security</li>
+            </ul>
+        </div>
+        <div class="copywrite">
+            <p>
+                ©2025 Pokémon. ©1995 - 2025 Nintendo/Creatures Inc./GAME FREAK inc. TM, ®Nintendo.
+            </p>
+        </div>
+       </div>
+
+    </div><!--end term section-->
+   </div><!--end section 2-->
+
+         </div><!--end end-section-->
+    
+</div><!--end of container-->
+
+    <!--script-->
+    <script src="script.js">
+       classlist.add
+    </script>
+</body>
+</html>
