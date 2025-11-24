@@ -13,400 +13,337 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-   <header class="top-header">
+    <div class="container">
 
-    <!-- TOP LOGO STRIP -->
-    <div class="logo-strip">
-        <img src="images/pokemon.png">
-        <img src="images/shop.png">
-        <img src="images/about us.png">
-        <img src="images/trading.png">
-        <img src="images/legends.png">
-        <img src="images/forums.png">
-    </div>
-
-    <!-- MAIN NAVIGATION BAR -->
-    <nav class="main-nav">
-        <ul>
-            <li class="active">
-               <i class="fa-solid fa-house"></i>
-                <span>Home</span>
-            </li>
-
-            <li>
-                <i class="fas fa-book-open"></i>
-
-                <span>Pokédex</span>
-            </li>
-
-            <li>
-                <i class="fa-solid fa-gamepad"></i>
-                <span>Video Games & Apps</span>
-            </li>
-
-            <li>
-                <i class="fas fa-layer-group"></i>
-
-
-                <span>Trading Card Game</span>
-            </li>
-
-            <li>
-                <li>
-   <i class="fas fa-play-circle"></i>
-
-                <span>Animation</span>
-            </li>
-
-            <li>
-                <i class="fa-solid fa-trophy"></i>
-                <span>Play! Pokémon Events</span>
-            </li>
-
-            <li>
-                <i class="fa-solid fa-newspaper"></i>
-                <span>News</span>
-            </li>
-        </ul>
-    </nav>
-</header>
-<div class="container">
-
-    <!-- LEFT BIG CARD -->
-    <div class="big-card">
-        <img src="images/pk int.gif" alt="">
-        <div class="big-content">
-            <h2>LIVE: 2026 Latin America International Championships
-                </h2>
-            <p>
-             Tune in to LAIC now to watch Trainers battle it out in the Pokémon Trading Card Game, Pokémon&nbsp;VGC, Pokémon&nbsp;GO, and Pokémon UNITE!
-            </p>
-        </div>
-    </div>
-
-    <!-- RIGHT SIDE BLOCKS -->
-    <div class="right-side">
-
-        <div class="small-card yellow">
-            <img src="images/pokemon international.png" alt="">
-            <div class="text">
-                <h3>Watch LAIC for Amazing Rewards</h3>
-            </div>
-        </div>
-
-        <div class="small-card green">
-            <img src="images/pokemon 5.png" alt="">
-            <div class="text">
-                <h3>Ascended Heroes<br>Arrives in January</h3>
+        <div class="header-container column center ">
+            <div class="header1 row center">
                 
-            </div>
-        </div>
-
-    </div>
-
-</div>
- 
-<div class="three-cards">
-
-    <!-- CARD 1 -->
-    <div class="card purple">
-        <img src="images/pokemon legends.png" alt="">
-        <div class="card-text">
-             <h3>Rank Up in the Z-A Battle Club</h3>
-        </div>
-    </div>
-
-    <!-- CARD 2 -->
-    <div class="card orange">
-        <img src="images/mega dimension.png" alt="">
-        <div class="card-text">
-            <h3>Get Charged Up with Mega Zeraora </h3>
+                <div class="header-content01 row ">
+                    <div class="header-items img1" >
+                     </div>
+                    <div class="header-items img2 column center"  >
+                    <img src="Images/Header01/pikachu.png" id="pikachu" class="animate__animated bounce" alt="pickachu">
+                </div>
+                <div class="header-items img3 column center" >
+                <img src="Images/Header01/about-us.png"  id="about-us" class="animate__animated bounce" alt="pickachu">
+                </div>
+                <div class="header-items arrow-container column center">
+                    <button onclick="showLongTab()"><div class="arrow">></div></button>
+                </div>
+                </div>
+                <div class="long-image row ">
+                    <div class="header-items img4 column center">
+                    <img src="Images/Header01/pokemon-big.png" class="opacity"alt="big_pickachu">
+                </div>
+                <div class="header-items img5 column center">
+                    <img src="Images/Header01/pokemon-z-a-176x50-en.png" class="opacity"alt="big_pickachu">
+                </div>
+                <div class="header-items img6 column center">
+                    <img src="Images/Header01/community-forums-175x50-en.png" class="opacity"alt="big_pickachu">
+                </div>
+               
+                </div>
+            </div><!--header-container item one-->
+            <div class="header02 row center">
+                 <div class="icon-menu column center">
+                    <button onclick="showMenuLink()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+                 <!--start new div-->
+                 <div class="menu-items row center">
+                <div class="header02-items h2-img1 column center ">
+                     <div class="rabbit-logo column center">
+                        <img src="Images/Header02-icons/rabbit.png" alt="">
+                    </div>
+                    <div class="title">Home</div>
+                 </div>
                 
-        </div>
-    </div>
+                <div class="header02-items border-red ">
+                   <div class="pokiball item column center">
+                     <div class="poki-ball bg-size02 rotation "></div>
+                    <div class="title">Pokedex</div>
+                </div>
+                </div>
 
-    <!-- CARD 3 -->
-    <div class="card blue">
-        <img src="images/dynamic.png" alt="">
-        <div class="card-text">
-            <h3>Pokemon go Dynamax Eevee Max Battle Weekend</h3>
-        </div>
-    </div>
-
-</div>
- 
-<div class="featured-container">
-
-    <div class="featured-title">
-        <span>Featured Pokémon</span>
-    </div>
-
-    <div class="slider">
-
-        <button class="arrow left">&#10094;</button>
-
-        <div class="slides">
-
-            <!-- CARD 1 -->
-            <div class="pokemon-card">
-                <img src="images/471.png">
-                <div class="info">
-                    <h3>Glaceon</h3>
-                    <span class="num">471</span>
-
-                    <div class="detail-row">
-                        <span>Type</span>
-                        <span class="type-badge">Ice</span>
+                <div class="header02-items border-orange column center">
+                    <div class="videogame item column center">
+                        <div class="game-pad  bg-size02 rotation"></div>
+                    <div class="title">video games</div>
                     </div>
+                </div>
 
-                    <div class="detail-row">
-                        <span>Abilities</span>
-                        <span>Snow Cloak</span>
+                <div class="header02-items border-light-orange ">
+                   <div class="trading-item  item column center">
+                     <div class="trading-card bg-size bg-size02 rotation"></div>
+                    <div class="title">Trading Card Game</div>
+                   </div>
+                </div>
+
+                <div class="header02-items border-green column center">
+                    <div class="animation-item  item column center">
+                    <div class="animation bg-size bg-size02 rotation"></div>
+                    <div class="title">Animation</div>
+                    </div>
+                </div>
+
+                <div class="header02-items border-blue column center">
+                    <div class="cup-item  item column center">
+                    <div class="cup bg-size bg-size02 rotation"></div>
+                    <div class="title">Play Pokemon</div>
+                    </div>
+                </div>
+
+                <div class="header02-items border-dark-blue column center">
+                    <div class="news-paper-item item  item column center">
+                    <div class="news-paper bg-size bg-size02 rotation"></div>
+                    <div class="title">News</div>
+                    </div>
+                </div>
+                </div><!--new div-->
+
+                 <div class="icon-address column center">
+                    <button class="button">
+                     <i class="fa-regular fa-address-card "></i>
+                    </button>
+                    <div class="login">Log-in</div>
+                </div>
+            </div><!--header-container item two-->
+        </div><!--header-container item two-->
+
+        <div class="main-section  row">
+            <div class="section01 column">
+            <div class="itemOne column">
+               <img src="Images/Main-section/large_imgage.png" alt="not found">
+              <div class="description column">
+                <div class="one">
+                   <h2>The Hottest Card from <i>Mega</i> <i>Evolution - Phantasmal Flames</i></h2> 
+                </div>
+                <div class="two">
+                   <h3>Xander Pero breaks down the cards most likey to spark a new flame in the Standard format</h3>
+                </div>
+              </div>
+            </div>
+            <div class="row second-section">
+                <div class="column-1 column">
+                    <img src="Images/Main-section/row-1.png" alt="not found">
+                    <div class="description">
+                        <h2>Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</h2>
+                    </div>
+                </div>
+                <div class="column-2 column">
+                    <img src="Images/Main-section/row-2.png" alt="not found">
+                    <div class="description">
+                        <h2>Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</h2>
                     </div>
                 </div>
             </div>
+            </div> <!--section one end-->
 
-            <!-- CARD 2 -->
-            <div class="pokemon-card">
-                <img src="images/197.png">
-                <div class="info">
-                    <h3>Umbreon</h3>
-                    <span class="num">197</span>
-                    <div class="detail-row">
-                        <span>Type</span>
-                        <span class="type-badge">Dark</span>
-                    </div>
-                    <div class="detail-row">
-                        <span>Abilities</span>
-                        <span>Synchronize</span>
+            <div class="section02 column">
+                <div class="itemOne">
+                    <img src="Images/Main-section/column-01.png" alt="not found">
+                    <div class="description">
+                        <p>Pokemon TCG Pocket Mega Pridgeot ex Drop Event</p>
                     </div>
                 </div>
-            </div>
-
-            <!-- CARD 3 -->
-            <div class="pokemon-card">
-                <img src="images/430.png">
-                <div class="info">
-                    <h3>Honchkrow</h3>
-                    <span class="num">430</span>
-                    <div class="detail-row">
-                        <span>Type</span>
-                        <span class="type-badge">Dark/Flying</span>
-                    </div>
-                    <div class="detail-row">
-                        <span>Abilities</span>
-                        <span>Insomnia/Super luck</span>
+                <div class="itemTwo">
+                    <img src="Images/Main-section02/03.png" alt="not found">
+                    <div class="description">
+                        <p>Pokemon TCG Pocket Mega Pridgeot ex Drop Event</p>
                     </div>
                 </div>
-            </div>
-           <div class="pokemon-card">
-                <img src="images/966.png">
-                <div class="info">
-                    <h3>Revavroom</h3>
-                    <span class="num">966</span>
-                    <div class="detail-row">
-                        <span>Type</span>
-                        <span class="type-badge">Steel/poison</span>
+                <div class="itemThree column">
+                    <div class="description">
+                        <p>Pokemon TCG Pocket Mega Pridgeot ex Drop Event</p>
                     </div>
-                    <div class="detail-row">
-                        <span>Abilities</span>
-                        <span>Overcoat</span>
-                    </div>
+                     <img src="Images/Main-section02/07.png" alt="not found">
+                     
                 </div>
-            </div>
-             <div class="pokemon-card">
-                <img src="images/608.png">
-                <div class="info">
-                    <h3>Lampent</h3>
-                    <span class="num">608</span>
-                    <div class="detail-row">
-                        <span>Type</span>
-                        <span class="type-badge">Ghost/fire</span>
-                    </div>
-                    <div class="detail-row">
-                        <span>Abilities</span>
-                        <span>Flash Fire/Flame Body</span>
-                    </div>
-                </div>
-            </div>
-             <div class="pokemon-card">
-                <img src="images/350.png">
-                <div class="info">
-                    <h3>Milotic</h3>
-                    <span class="num">350</span>
-                    <div class="detail-row">
-                        <span>Type</span>
-                        <span class="type-badge">Water</span>
-                    </div>
-                    <div class="detail-row">
-                        <span>Abilities</span>
-                        <span>Marvel Scale/Competitive</span>
-                    </div>
-                </div>
-            </div>
-             <div class="pokemon-card">
-                <img src="images/986.png">
-                <div class="info">
-                    <h3>Brute Bonnet</h3>
-                    <span class="num">986</span>
-                    <div class="detail-row">
-                        <span>Type</span>
-                        <span class="type-badge">Grass/Dark</span>
-                    </div>
-                    <div class="detail-row">
-                        <span>Abilities</span>
-                        <span>Photosynthesis</span>
-                    </div>
-                </div>
-            </div>
-             <div class="pokemon-card">
-                <img src="images/036.png">
-                <div class="info">
-                    <h3>Clefable</h3>
-                    <span class="num">36</span>
-                    <div class="detail-row">
-                        <span>Type</span>
-                        <span class="type-badge">Fairy</span>
-                    </div>
-                    <div class="detail-row">
-                        <span>Abilities</span>
-                        <span>Cute Charm/Magic Guard</span>
-                    </div>
-                </div>
-            </div>
-             <div class="pokemon-card">
-                <img src="images/901.png">
-                <div class="info">
-                    <h3>Ursaluna</h3>
-                    <span class="num">901</span>
-                    <div class="detail-row">
-                        <span>Type</span>
-                        <span class="type-badge">Ground/Normal</span>
-                    </div>
-                    <div class="detail-row">
-                        <span>Abilities</span>
-                        <span>Guts/Bulletproof</span>
-                    </div>
-                </div>
-            </div>
-               <div class="pokemon-card">
-                <img src="images/004.png">
-                <div class="info">
-                    <h3>Charmander</h3>
-                    <span class="num">4</span>
-                    <div class="detail-row">
-                        <span>Type</span>
-                        <span class="type-badge">Fire</span>
-                    </div>
-                    <div class="detail-row">
-                        <span>Abilities</span>
-                        <span>Blaze</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <button class="arrow right">&#10095;</button>
-    </div>
-
-    <div class="more-btn">
-        Explore More Pokémon
-    </div>
-</div>
-<div class="section">
-
-    <!-- TOP 3 CARDS -->
-    <div class="row">
-
-        <div class="card1">
-            <img src="images/flames.png">
-            <div class="content">
-                <div class="title">The Hottest Cards from Mega Evolution—Phantasmal Flames</div>
-                <div class="text">Xander Pero breaks down the cards most likely to spark a new flame in the Standard format.</div>
-            </div>
-        </div>
-
-        <div class="card1">
-            <img src="images/season 3.png">
-            <div class="content2">
-                <div class="title">Become a Legend with a New Ranked Battles Season</div>
-                <div class="text">Earn Chesnaughtite and other useful rewards while honing your battle skills in Pokemon Legends: Z-A Ranked Battles Season 3.</div>
-            </div>
-        </div>
-
-        <div class="card1">
-            <img src="images/pokemon trading.png">
-            <div class="content3">
-                <div class="title">Soar into Battle with Mega Pidgeot ex in Pokemon TCG pocket</div>
-                <div class="text">Win solo battles to earn special promo cards with new artwork, including a Mega Pidgeot ex promo card.</div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- CENTER HEADING -->
-      <div class="heading">What's New This Week</div>    
-
-    <!-- BOTTOM 3 CARDS -->
-    <div class="row">
-
-        <div class="card1">
             
-            <img src="images/pokemon unite.png">
-            <div class="content4">
-                <div class="title">Vaporeon Turns the Tide of Battle in Pokemon UNITE</div>
-                <div class="text">The Bubble Jet Pokémon dives in to control the currents as a Ranged Defender.</div>
             </div>
         </div>
+        <!--code be edited here-->
 
-        <div class="card1">
-            <img src="images/poki.png">
-            <div class="content5">
-                <div class="title">Things Get Electric in Pokémon GO</div>
-                <div class="text">Shiny Morpeko makes its Pokémon&nbsp;GO debut in the High Voltage event.</div>
-            </div>
+         <div class="slider-section row">
+            <div class="row">
+                <div class="box-item itmes1 column">
+                     <div class="pickachu-02">
+                        <img src="Images/pikachus/Squirtle.png" alt="not found">
+                     </div>
+                     <div class="details column">
+                        <div class="row">
+                            <p class="poki-name">Squirtle</p>
+                            <p class="poki-number">7</p>
+                        </div>
+                         <div class="row">
+                            <p class=" type">Type</p>
+                            <p class="water form">Water</p>
+                        </div>
+                         <div class=" row">
+                            <p class="ability">Abillity</p>
+                            <p class="power">Torrent</p>
+                        </div>
+            
+                     </div><!--details end-->
+                </div><!--item end-->
+                
+                <div class="box-item itmes2 column">
+                     <div class="pickachu-02">
+                        <img src="Images/pikachus/Golem.png" alt="not found">
+                     </div>
+                     <div class="details column">
+                        <div class=" row">
+                            <p class="poki-name">Golem</p>
+                            <p class="poki-number">76</p>
+                        </div>
+                         <div class=" row">
+                            <p class=" type">Type</p>
+                            <p class="rock form">Rock</p>
+                        </div>
+                         <div class=" row">
+                            <p class="ability">Abillity</p>
+                            <p class="power">Rock Head/ Sturdy</p>
+                        </div>
+            
+                     </div><!--details end-->
+                </div><!--item end-->
+
+                <div class="box-item itmes3 column">
+                     <div class="pickachu-02">
+                        <img src="Images/pikachus/Torchic.png" alt="not found">
+                     </div>
+                     <div class="details column">
+                        <div class="row">
+                            <p class="poki-name">Torchic</p>
+                            <p class="poki-number">255</p>
+                        </div>
+                         <div class="detail row">
+                            <p class=" type">Type</p>
+                            <p class="fire form">fire</p>
+                        </div>
+                         <div class="row">
+                            <p class="ability">Abillity</p>
+                            <p class="power">Blaze</p>
+                        </div>
+            
+                     </div><!--details end-->
+                </div><!--item end-->
+
+                <div class="box-item itmes4 column">
+                     <div class="pickachu-02">
+                        <img src="Images/pikachus/pumkaboo.png" alt="not found">
+                     </div>
+                     <div class="details column">
+                        <div class="row">
+                            <p class="poki-name">pumkaboo</p>
+                            <p class="poki-number">710</p>
+                        </div>
+                         <div class="row">
+                            <p class=" type">Type</p>
+                            <p class="orange form">Ghost</p>
+                        </div>
+                         <div class="row">
+                            <p class="ability">Abillity</p>
+                            <p class="power">Pickup/Frisk</p>
+                        </div>
+            
+                     </div><!--details end-->
+                </div><!--item end-->
+
+                <div class="box-item itmes5 column">
+                     <div class="pickachu-02">
+                        <img src="Images/pikachus/Iron-Valiant.png" alt="not found">
+                     </div>
+                     <div class="details column">
+                        <div class="detail row">
+                            <p class="poki-name">Iron Valiant</p>
+                            <p class="poki-number">1006</p>
+                        </div>
+                         <div class="detail row">
+                            <p class=" type">Type</p>
+                            <p class="fighting form">fightinhg</p>
+                        </div>
+                         <div class="detail row">
+                            <p class="ability">Abillity</p>
+                            <p class="power">Quark Drive</p>
+                        </div>
+            
+                     </div><!--details end-->
+                </div><!--item end-->
+           
+           
+            </div><!--end row-->
+
+         </div><!--end slider section-->
+
+        <!--end of code-->
+         <div class="main02 row">
+
+<div class="main2-section01 column">
+
+     <div class="box1 box">
+     <img src="Images/Main-section02/01.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+     <div class="box2 box">
+     <img src="Images/Main-section02/02.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+     <div class="box3 box">
+     <img src="Images/Main-section02/03.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+     <div class="viewMore v1 box column center">
+     <div class="text"> View More </div>
+     </div><!--box end-->
+
+  </div><!--section end-->
+
+  <div class="main2-section02 column">
+    
+     <div class="box4 box">
+     <img src="Images/Main-section02/05.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+
+     <div class="box6 box">
+        <div class="text">
+           <p>Whats New</p>
+           <p>In This Week</p>
         </div>
+     </div><!--box end-->
 
-        <div class="card1">
-            <img src="images/pocket.png">
-            <div class="content6">
-                <div class="title">Scorch the Competition with Blaziken ex Deck Strategy</div>
-                <div class="text">Smolder your opponents with this deck strategy featuring Mega Evolution Pokémon&nbsp;ex.</div>
-            </div>
-        </div>
+     <div class="box5 box">
+     <img src="Images/Main-section02/04.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+     <div class="box7 box">
+     <img src="Images/Main-section02/06.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
 
-    </div>
+  </div><!--section end-->
 
-    <!-- RIGHT SIDE 7th CARD -->
-    <div class="side-card">
-        <div class="side-content">
-            <div class="title">View All News</div>
-            <div class="text">Keep up with all the latest developments!</div>
-        </div>
-    </div>
+  <div class="main2-section03 column">
+    
+     <div class="box8 box">
+     <img src="Images/Main-section02/08.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+     <div class="box9 box">
+     <img src="Images/Main-section02/07.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
+     <div class="box10 box">
+     <img src="Images/Main-section/row-1.png" alt="">
+     <div class="description">Goodra Is Oozin` for a Bruisin' in Tera Raid Battles</div>
+     </div><!--box end-->
 
-</div>
-</div>
-   
-
-  <script>
-let slider = document.querySelector(".slides");
-let cards = document.querySelectorAll(".pokemon-card");
-let index = 0;
-
-document.querySelector(".right").onclick = () => {
-    index++;
-    if (index >= cards.length) index = 0;
-    slider.style.transform = translateX(${-index * 280}px);
-};
-
-document.querySelector(".left").onclick = () => {
-    index--;
-    if (index < 0) index = cards.length - 1;
-    slider.style.transform = translateX(${-index * 280}px);
-};
-</script>
-
+    <div class="viewMore v-2 box column center">
+     <div class="text"> View More </div>  
+     </div><!--box end-->
+     
 
   </div><!--section end-->
         </div><!--end of main row-->
