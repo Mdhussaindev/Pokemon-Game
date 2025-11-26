@@ -1,162 +1,537 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokémon Universe</title>
+    <title>Pokemon Header</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/4604a2fde6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+
 <body>
 
-    <!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="logo">Pokémon Universe</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Pokémon</a></li>
-            <li><a href="#regions">Regions</a></li>
-            <li><a href="#pokemon">Pokémon</a></li>
-            <li><a href="#trainers">Trainers</a></li>
-        </ul>
-    </nav>
+    <header class="top-header">
 
-
-    <!-- HERO SECTION -->
-    <section id="home" class="hero">
-        <div class="hero-text">
-            <h1>Enter the Pokémon World</h1>
-            <p>Discover regions, meet powerful trainers, and catch legendary Pokémon.</p>
-            <a href="#pokemon" class="hero-btn">Start Exploring</a>
+        <!-- TOP LOGO STRIP -->
+        <div class="logo-strip">
+            <img src="images/pokemon.png">
+            <img src="images/shop.png">
+            <img src="images/about us.png">
+            <img src="images/trading.png">
+            <img src="images/legends.png">
+            <img src="images/forums.png">
         </div>
 
-        <div class="hero-img">
-            <img src="https://i.imgur.com/jxrh4iS.png" alt="Pikachu">
+        <!-- MAIN NAVIGATION BAR -->
+        <nav class="main-nav">
+            <ul>
+                <li class="active">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </li>
+
+                <li>
+                    <i class="fas fa-book-open"></i>
+
+                    <span>Pokédex</span>
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <span>Video Games & Apps</span>
+                </li>
+
+                <li>
+                    <i class="fas fa-layer-group"></i>
+
+
+                    <span>Trading Card Game</span>
+                </li>
+
+                <li>
+                <li>
+                    <i class="fas fa-play-circle"></i>
+
+                    <span>Animation</span>
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-trophy"></i>
+                    <span>Play! Pokémon Events</span>
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-newspaper"></i>
+                    <span>News</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+
+        <!-- LEFT BIG CARD -->
+        <div class="big-card">
+            <img src="images/pk int.gif" alt="">
+            <div class="big-content">
+                <h2>LIVE: 2026 Latin America International Championships
+                </h2>
+                <p>
+                    Tune in to LAIC now to watch Trainers battle it out in the Pokémon Trading Card Game,
+                    Pokémon&nbsp;VGC, Pokémon&nbsp;GO, and Pokémon UNITE!
+                </p>
+            </div>
         </div>
-    </section>
 
+        <!-- RIGHT SIDE BLOCKS -->
+        <div class="right-side">
 
-    <!-- ABOUT SECTION -->
-    <section id="about" class="about">
-        <h2>About Pokémon</h2>
-        <p>Pokémon are mysterious creatures with amazing powers. Trainers travel across different regions to catch Pokémon and compete in battles to become the champion.</p>
-        <div class="about-grid">
-
-            <div class="about-card">
-                <img src="https://i.imgur.com/iYq2jzP.png">
-                <h3>Catch</h3>
-                <p>Find Pokémon in the wild and catch them in Pokéballs.</p>
+            <div class="small-card yellow">
+                <img src="images/pokemon international.png" alt="">
+                <div class="text">
+                    <h3>Watch LAIC for Amazing Rewards</h3>
+                </div>
             </div>
 
-            <div class="about-card">
-                <img src="https://i.imgur.com/S1fA5sD.png">
-                <h3>Train</h3>
-                <p>Level up your Pokémon and unlock stronger abilities.</p>
-            </div>
+            <div class="small-card green">
+                <img src="images/pokemon 5.png" alt="">
+                <div class="text">
+                    <h3>Ascended Heroes<br>Arrives in January</h3>
 
-            <div class="about-card">
-                <img src="https://i.imgur.com/M5JSptq.png">
-                <h3>Battle</h3>
-                <p>Fight other trainers and aim for the Pokémon League.</p>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- REGIONS SECTION -->
-    <section id="regions" class="regions">
-        <h2>Famous Pokémon Regions</h2>
-
-        <div class="region-container">
-
-            <div class="region">
-                <img src="https://i.imgur.com/RF7h4gp.jpeg">
-                <h3>Kanto Region</h3>
-                <p>Home of Pikachu, Charizard, Bulbasaur and Squirtle.</p>
-            </div>
-
-            <div class="region">
-                <img src="https://i.imgur.com/s1ozYtK.jpeg">
-                <h3>Johto Region</h3>
-                <p>Known for legendary Pokémon Ho-Oh and Lugia.</p>
-            </div>
-
-            <div class="region">
-                <img src="https://i.imgur.com/mOn3E7k.jpeg">
-                <h3>Hoenn Region</h3>
-                <p>Beautiful islands and powerful Pokémon like Rayquaza.</p>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- POKEMON SECTION -->
-    <section id="pokemon" class="pokemon">
-        <h2>Popular Pokémon</h2>
-
-        <div class="pokemon-grid">
-
-            <div class="poke-card">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png">
-                <h3>Pikachu</h3>
-                <p>Electric Type</p>
-            </div>
-
-            <div class="poke-card">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png">
-                <h3>Charizard</h3>
-                <p>Fire/Flying Type</p>
-            </div>
-
-            <div class="poke-card">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png">
-                <h3>Mewtwo</h3>
-                <p>Psychic Type</p>
-            </div>
-
-            <div class="poke-card">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png">
-                <h3>Bulbasaur</h3>
-                <p>Grass/Poison Type</p>
+                </div>
             </div>
 
         </div>
-    </section>
 
+    </div>
 
-    <!-- TRAINERS SECTION -->
-    <section id="trainers" class="trainers">
-        <h2>Famous Trainers</h2>
+    <div class="three-cards">
 
-        <div class="trainer-grid">
+        <!-- CARD 1 -->
+        <div class="card purple">
+            <img src="images/pokemon legends.png" alt="">
+            <div class="card-text">
+                <h3>Rank Up in the Z-A Battle Club</h3>
+            </div>
+        </div>
 
-            <div class="trainer-card">
-                <img src="https://i.imgur.com/VjN3D9T.png">
-                <h3>Ash Ketchum</h3>
-                <p>The strongest Pokémon trainer and champion.</p>
+        <!-- CARD 2 -->
+        <div class="card orange">
+            <img src="images/mega dimension.png" alt="">
+            <div class="card-text">
+                <h3>Get Charged Up with Mega Zeraora </h3>
+
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card blue">
+            <img src="images/dynamic.png" alt="">
+            <div class="card-text">
+                <h3>Pokemon go Dynamax Eevee Max Battle Weekend</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="featured-container">
+
+        <div class="featured-title">
+            <span>Featured Pokémon</span>
+        </div>
+
+        <div class="slider">
+
+            <button class="arrow left">&#10094;</button>
+
+            <div class="slides">
+
+                <!-- CARD 1 -->
+                <div class="pokemon-card">
+                    <img src="images/471.png">
+                    <div class="info">
+                        <h3>Glaceon</h3>
+                        <span class="num">471</span>
+
+                        <div class="detail-row">
+                            <span>Type</span>
+                            <span class="type-badge">Ice</span>
+                        </div>
+
+                        <div class="detail-row">
+                            <span>Abilities</span>
+                            <span>Snow Cloak</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="pokemon-card">
+                    <img src="images/197.png">
+                    <div class="info">
+                        <h3>Umbreon</h3>
+                        <span class="num">197</span>
+                        <div class="detail-row">
+                            <span>Type</span>
+                            <span class="type-badge">Dark</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>Abilities</span>
+                            <span>Synchronize</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="pokemon-card">
+                    <img src="images/430.png">
+                    <div class="info">
+                        <h3>Honchkrow</h3>
+                        <span class="num">430</span>
+                        <div class="detail-row">
+                            <span>Type</span>
+                            <span class="type-badge">Dark/Flying</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>Abilities</span>
+                            <span>Insomnia/Super luck</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pokemon-card">
+                    <img src="images/966.png">
+                    <div class="info">
+                        <h3>Revavroom</h3>
+                        <span class="num">966</span>
+                        <div class="detail-row">
+                            <span>Type</span>
+                            <span class="type-badge">Steel/poison</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>Abilities</span>
+                            <span>Overcoat</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pokemon-card">
+                    <img src="images/608.png">
+                    <div class="info">
+                        <h3>Lampent</h3>
+                        <span class="num">608</span>
+                        <div class="detail-row">
+                            <span>Type</span>
+                            <span class="type-badge">Ghost/fire</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>Abilities</span>
+                            <span>Flash Fire/Flame Body</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pokemon-card">
+                    <img src="images/350.png">
+                    <div class="info">
+                        <h3>Milotic</h3>
+                        <span class="num">350</span>
+                        <div class="detail-row">
+                            <span>Type</span>
+                            <span class="type-badge">Water</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>Abilities</span>
+                            <span>Marvel Scale/Competitive</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pokemon-card">
+                    <img src="images/986.png">
+                    <div class="info">
+                        <h3>Brute Bonnet</h3>
+                        <span class="num">986</span>
+                        <div class="detail-row">
+                            <span>Type</span>
+                            <span class="type-badge">Grass/Dark</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>Abilities</span>
+                            <span>Photosynthesis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pokemon-card">
+                    <img src="images/036.png">
+                    <div class="info">
+                        <h3>Clefable</h3>
+                        <span class="num">36</span>
+                        <div class="detail-row">
+                            <span>Type</span>
+                            <span class="type-badge">Fairy</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>Abilities</span>
+                            <span>Cute Charm/Magic Guard</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pokemon-card">
+                    <img src="images/901.png">
+                    <div class="info">
+                        <h3>Ursaluna</h3>
+                        <span class="num">901</span>
+                        <div class="detail-row">
+                            <span>Type</span>
+                            <span class="type-badge">Ground/Normal</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>Abilities</span>
+                            <span>Guts/Bulletproof</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pokemon-card">
+                    <img src="images/004.png">
+                    <div class="info">
+                        <h3>Charmander</h3>
+                        <span class="num">4</span>
+                        <div class="detail-row">
+                            <span>Type</span>
+                            <span class="type-badge">Fire</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>Abilities</span>
+                            <span>Blaze</span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="trainer-card">
-                <img src="https://i.imgur.com/kRALz0L.png">
-                <h3>Misty</h3>
-                <p>Water-type specialist and Cerulean City Gym Leader.</p>
+            <button class="arrow right">&#10095;</button>
+        </div>
+
+        <div class="more-btn">
+            Explore More Pokémon
+        </div>
+    </div>
+    <div class="section">
+
+        <!-- TOP 3 CARDS -->
+        <div class="row">
+
+            <div class="card1">
+                <img src="images/flames.png">
+                <div class="content">
+                    <div class="title">The Hottest Cards from Mega Evolution—Phantasmal Flames</div>
+                    <div class="text">Xander Pero breaks down the cards most likely to spark a new flame in the Standard
+                        format.</div>
+                </div>
             </div>
 
-            <div class="trainer-card">
-                <img src="https://i.imgur.com/Ax5S2oX.png">
-                <h3>Brock</h3>
-                <p>Rock-type expert and Pewter City Gym Leader.</p>
+            <div class="card1">
+                <img src="images/season 3.png">
+                <div class="content2">
+                    <div class="title">Become a Legend with a New Ranked Battles Season</div>
+                    <div class="text">Earn Chesnaughtite and other useful rewards while honing your battle skills in
+                        Pokemon Legends: Z-A Ranked Battles Season 3.</div>
+                </div>
+            </div>
+
+            <div class="card1">
+                <img src="images/pokemon trading.png">
+                <div class="content3">
+                    <div class="title">Soar into Battle with Mega Pidgeot ex in Pokemon TCG pocket</div>
+                    <div class="text">Win solo battles to earn special promo cards with new artwork, including a Mega
+                        Pidgeot ex promo card.</div>
+                </div>
             </div>
 
         </div>
-    </section>
+
+        <!-- CENTER HEADING -->
+        <div class="heading">What's New This Week</div>
+
+        <!-- BOTTOM 3 CARDS -->
+        <div class="row">
+
+            <div class="card1">
+
+                <img src="images/pokemon unite.png">
+                <div class="content4">
+                    <div class="title">Vaporeon Turns the Tide of Battle in Pokemon UNITE</div>
+                    <div class="text">The Bubble Jet Pokémon dives in to control the currents as a Ranged Defender.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card1">
+                <img src="images/poki.png">
+                <div class="content5">
+                    <div class="title">Things Get Electric in Pokémon GO</div>
+                    <div class="text">Shiny Morpeko makes its Pokémon&nbsp;GO debut in the High Voltage event.</div>
+                </div>
+            </div>
+
+            <div class="card1">
+                <img src="images/pocket.png">
+                <div class="content6">
+                    <div class="title">Scorch the Competition with Blaziken ex Deck Strategy</div>
+                    <div class="text">Smolder your opponents with this deck strategy featuring Mega Evolution
+                        Pokémon&nbsp;ex.</div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE 7th CARD -->
+        <div class="side-card">
+            <div class="side-content">
+                <div class="title">View All News</div>
+                <div class="text">Keep up with all the latest developments!</div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <div class="main-wrapper">
+
+        <!-- LEFT SIDE -->
+        <div class="left-box">
+
+            <h2>Sign up for Pokémon emails!</h2>
+
+            <input type="text" placeholder="Email" class="big-input">
+
+            <div class="two-inputs">
+                <select>
+                    <option>Pakistan</option>
+                    <option>United Kindom</option>
+                    <option>United States</option>
+                    <option>Turkey</option>
+                    <option>Russia</option>
+                    <option>Saudia Arabia</option>
+                    <option>New zeland</option>
+                    <option>United Arab Emirates</option>
+                    <option>Australia</option>
+                    <option>Germany</option>
+                    <option>Iran</option>
+                    <option>Ukraine</option>
+                    <option>Qatar</option>
+                    <option>China</option>
+                </select>
+
+                <input type="date" placeholder="Birthday">
+            </div>
+
+            <button class="signup-btn">SIGN UP</button>
+        </div>
 
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2025 Pokémon Universe — Student Project</p>
+        <!-- RIGHT SIDE -->
+        <div class="right-box">
+
+            <p class="heading">I'd like to receive emails about:</p>
+
+            <label class="checkline">
+                <input type="checkbox" checked>
+                Pokémon video games, apps, and more
+            </label>
+
+            <label class="checkline">
+                <input type="checkbox" checked>
+                Pokémon Center (our official online shop)
+            </label>
+
+            <label class="checkline">
+                <input type="checkbox">
+                I accept the Pokémon.com
+                <a href="#">Terms of Use</a> and <a href="#">Privacy Notice</a>
+            </label>
+
+        </div>
+
+    </div>
+    <footer class="pokemon-footer">
+
+        <div class="footer-main">
+
+            <!-- LEFT SIDE: Company + Links -->
+            <div class="footer-left">
+
+                <h2 class="company-title">The Pokémon Company</h2>
+
+                <ul>
+                    <li>News</li>
+                    <li>Parents Guide</li>
+                    <li>Customer Service</li>
+                    <li>About Our Company</li>
+                    <li>Careers</li>
+                    <li>Select a Country/Region</li>
+                    <li>Press Site</li>
+                </ul>
+
+            </div>
+
+            <!-- CENTER SOCIAL ICONS -->
+            <div class="footer-center">
+                <div class="footer-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                </div>
+            </div>
+
+            <!-- RIGHT BADGE -->
+            <div class="footer-right">
+                <img src="images/coppa2" class="badge">
+            </div>
+
+        </div>
+
+
+        <!-- LEGAL AREA -->
+        <div class="footer-legal">
+
+            <ul class="legal-links">
+                <li>Terms of Use</li>
+                <li>Privacy Notice</li>
+                <li>Cookie Page</li>
+                <li>Legal Info</li>
+                <li>Security</li>
+            </ul>
+
+            <p class="legal-text">
+                ©2025 Pokémon. ©1995–2025 Nintendo/Creatures Inc./GAME FREAK inc. TM, ®Nintendo.
+            </p>
+
+        </div>
+
     </footer>
 
+
+
+
+    <script>
+        let slider = document.querySelector(".slides");
+        let cards = document.querySelectorAll(".pokemon-card");
+        let index = 0;
+
+        document.querySelector(".right").onclick = () => {
+            index++;
+            if (index >= cards.length) index = 0;
+            slider.style.transform = translateX(${- index * 280}px);
+};
+
+        document.querySelector(".left").onclick = () => {
+            index--;
+            if (index < 0) index = cards.length - 1;
+            slider.style.transform = translateX(${- index * 280}px);
+};
+    </script>
+
 </body>
+
 </html>
