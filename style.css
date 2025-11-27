@@ -168,7 +168,7 @@ body {
 
 .big-content{
     padding: 20px;
-    background-color: #ff90c4;
+    background-color: #313131;
 }
 
 .big-content h2{
@@ -182,7 +182,7 @@ body {
 
 .big-content p{
     margin-top: 10px;
-    color: #c3005b;
+    color: white;
     font-size: 16px;
 }
 .big-card {
@@ -674,4 +674,216 @@ h2 {
 .legal-text {
     font-size: 12px;
     opacity: 0.8;
+}
+@media (max-width: 768px) {
+
+    body {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    /* TOP LOGO STRIP */
+    .logo-strip {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 5px 0;
+    }
+    .logo-strip img {
+        height: 40px;
+        margin-bottom: 5px;
+    }
+
+    /* NAVBAR */
+    .main-nav ul {
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 10px 0;
+    }
+    .main-nav li i {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    .main-nav li span {
+        font-size: 12px;
+    }
+    .main-nav li.active::after {
+        bottom: -6px;
+        height: 3px;
+    }
+
+    /* MAIN CARDS */
+    .container {
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .big-card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .big-card img {
+        height: 220px;
+    }
+    .big-content h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .big-content p {
+        font-size: 14px;
+    }
+
+    .right-side {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .small-card {
+        width: 48%;
+        height: auto;
+    }
+    .small-card h3 {
+        font-size: 16px;
+    }
+
+    /* THREE CARDS */
+    .three-cards {
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .card-text h3 {
+        font-size: 18px;
+    }
+
+    /* FEATURED POKEMON SLIDER */
+    .featured-container {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .slides {
+        gap: 10px;
+    }
+    .pokemon-card {
+        width: 160px;
+    }
+    .pokemon-card img {
+        height: 140px;
+    }
+    .info h3 {
+        font-size: 16px;
+    }
+    .num {
+        font-size: 14px;
+    }
+    .type-badge {
+        font-size: 10px;
+    }
+    .arrow {
+        padding: 8px;
+        font-size: 18px;
+    }
+    .more-btn {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    /* NEWS SECTION */
+    .section {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .row {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .card1 {
+        width: 100%;
+    }
+    .card1 img {
+        height: auto;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .heading {
+        font-size: 22px;
+        margin: 15px 0;
+    }
+
+    /* SIDE CARD */
+    .side-card {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    /* SIGN-UP / MAIN WRAPPER */
+    .main-wrapper {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+    .left-box, .right-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .big-input, .two-inputs select, .two-inputs input {
+        width: 100%;
+    }
+    .signup-btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+    .right-box .heading {
+        font-size: 18px;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .checkline {
+        font-size: 13px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* FOOTER */
+    .pokemon-footer {
+        padding: 30px 10px;
+    }
+    .footer-main {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-left ul {
+        line-height: 22px;
+        text-align: center;
+    }
+    .footer-center .footer-icons {
+        justify-content: center;
+    }
+    .footer-icons i {
+        font-size: 18px;
+        margin: 0 6px;
+    }
+    .footer-right .badge {
+        margin: 0 auto;
+        width: 120px;
+    }
+    .footer-legal {
+        font-size: 12px;
+    }
+    .legal-links {
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+    }
 }
